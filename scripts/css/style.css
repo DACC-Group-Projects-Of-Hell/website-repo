@@ -1,11 +1,12 @@
-
+body{
+    background-color: #3c3c3c;
+}
 #navigation{
-    background-color:gray;
+    background-color:royalblue;
     width: 1910px;
     margin-right: 10px;
     padding: 20px;
     font-size: 20px;
-
 }
 
 th{
@@ -23,6 +24,37 @@ a:active{
 }
 
 a{
-    color: black;
+    font-size: 25px;
+    color: white;
     text-decoration: none;
 }
+
+#back{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+#logo{
+    
+    padding-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    height: auto;
+    display: block;
+    
+    
+}
+
+#main{
+        background-color: lightgreen;
+        width: 1185px;
+        height: 470px;
+        border: 8px solid royalblue;
+        margin: auto;
+        border-radius: 15px;
+}
+
