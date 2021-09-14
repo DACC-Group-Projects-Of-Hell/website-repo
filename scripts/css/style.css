@@ -58,6 +58,11 @@ a{
         border-radius: 15px;
 }
 
+#back{
+  height: 50px;
+  width: auto;
+}
+
 * {
     box-sizing: border-box;
   }
