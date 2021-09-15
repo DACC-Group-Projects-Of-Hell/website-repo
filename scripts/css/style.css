@@ -113,14 +113,21 @@ a{
     width: 1700px;
     height: auto;
     border: 8px solid royalblue;
+
   }
   
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* Create two columns that float next to eachother */
   .column {
     float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* Clear floats after the columns */
@@ -144,3 +151,4 @@ a{
 #list{
   list-style: none;
 }
+
