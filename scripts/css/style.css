@@ -61,6 +61,8 @@ a{
 #back{
   height: 50px;
   width: auto;
+  position: absolute;
+  bottom: auto;
 }
 
 * {
@@ -137,4 +139,8 @@ a{
   }
 #p{
   font-size:larger;
+}
+
+#list{
+  list-style: none;
 }
