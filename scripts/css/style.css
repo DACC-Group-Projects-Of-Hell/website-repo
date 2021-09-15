@@ -100,15 +100,17 @@ a{
   
   /* Style the container/contact section */
   .container {
+    
     border-radius: 10px;
     background-color: #f2f2f2;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     font-size: 17pt;
     margin-left: auto;
     margin-right: auto;
     width: 1700px;
     height: auto;
+    border: 8px solid royalblue;
   }
   
   /* Create two columns that float next to eachother */
