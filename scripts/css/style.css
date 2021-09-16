@@ -7,6 +7,7 @@ body{
     margin-right: 10px;
     padding: 20px;
     font-size: 20px;
+    border: 3px solid pink;
 }
 
 th{
@@ -16,11 +17,11 @@ th{
 }
 
 a:hover{
-    color: red;
+    color: pink;
 }
 
 a:active{
-    color: red;
+    color: pink;
 }
 
 a{
@@ -47,10 +48,7 @@ a{
     display: block; 
 }
 
-img{
-  width: 80%;
-  height: auto;
-}
+
 
 #main{
         background-color: lightgreen;
