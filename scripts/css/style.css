@@ -3,7 +3,7 @@ body{
 }
 #navigation{
     background-color:royalblue;
-    width: 1910px;
+    width: 100%;
     margin-right: 10px;
     padding: 20px;
     font-size: 20px;
@@ -42,17 +42,20 @@ a{
     padding-top: 13px;
     margin-left: auto;
     margin-right: auto;
-    width: 1150px;
+    width: 98%;
     height: auto;
-    display: block;
-    
-    
+    display: block; 
+}
+
+img{
+  width: 80%;
+  height: auto;
 }
 
 #main{
         background-color: lightgreen;
-        width: 1195px;
-        height: 485px;
+        width: 85%;
+        height: 68%;
         border: 8px solid royalblue;
         margin: auto;
         border-radius: 15px;
@@ -61,6 +64,8 @@ a{
 #back{
   height: 50px;
   width: auto;
+  position: absolute;
+  bottom: auto;
 }
 
 * {
@@ -100,17 +105,30 @@ a{
   
   /* Style the container/contact section */
   .container {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 20px;
+    font-size: 17pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    border: 8px solid royalblue;
+
   }
   
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* Create two columns that float next to eachother */
   .column {
-    float: left;
+    
     width: 50%;
     margin-top: 6px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* Clear floats after the columns */
@@ -129,4 +147,32 @@ a{
   }
 #p{
   font-size:larger;
+}
+
+#list{
+  list-style-position: inside;
+  vertical-align: auto;
+}
+
+#ul{
+  margin-left:auto;
+  margin-right: auto;
+  display: table-cell;
+ list-style-position: inside;
+ vertical-align: middle;
+}
+
+#center{
+  text-align: center;
+}
+
+#listcenter{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#listcenter2{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }

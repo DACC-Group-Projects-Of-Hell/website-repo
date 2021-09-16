@@ -29,7 +29,7 @@
 </head>
 <body>
     <link rel="scripts" href="scripts/css/signup.css">
-    <form action="action_page.php" style="border: 1px solid #ccc;">
+    <form action="action_page.php">
         <div class="container">
             <h1>Sign Up</h1>
 
@@ -38,10 +38,12 @@
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Enter Email" name="email" required>
 
-            <label psw><b>Password</b></label>
+
+            <label psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
 
-            <label psw-repeat><b>Repeat Password</b></label>
+            <label psw-repeat"><b>Repeat Password</b></label>
+
             <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
@@ -52,8 +54,8 @@
             <button type="submit" class="signupbtn">Sign Up</button>
             </div>
         </form>
+        </div>
     </body>
 <footer>
     <a onclick="history.back(-1)"><img src="images/back.png" alt="" id="back"></a>
 </footer>
-</html>
